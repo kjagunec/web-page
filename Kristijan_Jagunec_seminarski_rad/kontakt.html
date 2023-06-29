@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <title>Pokedex - Kontakt</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/65277f2614.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main class="long">
+            <header>
+                <img alt="logo" src="images/logo.jpg">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="naslovnica.html">
+                                <p>Naslovnica</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="trenutna" href="kontakt.html">
+                                <p>Kontakt</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="poddirektorij/o-nama.html">
+                                <p>O nama</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="novosti.html">
+                                <p>Novosti</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="trgovina.html">
+                                <p>Trgovina</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <p class="info">Your contact information: </p>
+            <form>
+                <p>Ime:</p>
+                <input type="text" name="ime">
+                <p>Prezime:</p>
+                <input type="text" name="prezime">
+                <p class="quiz">Now a small quiz</p>
+                <p>Which of this pokemon is a blastoise <i class="fa-regular fa-circle-question"></i></p>
+                <label>
+                    <input type="radio" name="koji" value="char">
+                    <img class="quizimg" alt="charizard" src="images/charizard.png">
+                </label>
+                <label>
+                    <input type="radio" name="koji" value="blast">
+                    <img class="quizimg" alt="blastoise" src="images/blastiose.png">
+                </label>
+                <label>
+                    <input type="radio" name="koji" value="venu">
+                    <img class="quizimg" alt="venusaur" src="images/venusaur.png">
+                </label>
+                <p class="quiz">Which of this pokemon has a weakness to electric <i class="fa-regular fa-circle-question"></i></p>
+                <label>
+                    <input class="check" type="checkbox" name="weak" value="char">Charizard
+                </label>
+                <label>
+                    <input class="check" type="checkbox" name="weak" value="venu">Venusaur
+                </label>
+                <label>
+                    <input class="check" type="checkbox" name="weak" value="blast">Blastoise
+                </label>
+                <br>
+                <input class="submit" type="submit">
+            </form>
+            <a class="mail" href="mailto:kjagunec@tvz.hr">Send mail
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103757.62371485036!2d139.65135757039533!3d35.641890902548965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018eaf5cd33dde1%3A0x53dc97121c168887!2sPok%C3%A9mon%20Company!5e0!3m2!1shr!2shr!4v1654886600966!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <footer>
+                <p>Kristijan Jagunec</p>
+                <p>0246103532</p>
+            </footer>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/975084-Pokmon-tile-cartoon-pattern.jpg");
+}
+main{
+    max-width: 1000px;
+    height: 1000px;
+    margin: auto;
+    position: relative;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 97%;
+    padding: 1.5%;
+    background-color: lightgray;
+}
+header nav{
+    margin: 1%;
+    height: 80%;
+    width: 75%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+header img{
+    width: 10%;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
+a:active{
+    background-color: darkred;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    height: 40px;
+    padding: 1.5%;
+    background-color: lightgray;
+}
+.trenutna{
+    background-color: red;
+}
+h2, h1{
+    font-family: 'Inconsolata', monospace;
+}
+/* Naslovnica */
+.mainN{
+    height: 1800px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+article{
+    position: relative;
+}
+figure{
+    width: 30%;
+}
+article img{
+    width: 100%;
+}
+aside{
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width: 60%;
+}
+aside p{
+    margin: 1%;
+}
+h2{
+    margin-top: 5%;
+}
+section a{
+    border: double red;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 0.5%;
+}
+td, th{
+    background-color: lightgray;
+}
+td{
+    padding: 0.25%;
+}
+table{
+    width: 100%;
+    margin-top: 1%;
+}
+/*Kontakt*/
+.quizimg{
+    width: 25%;
+    margin-right: 5%;
+}
+.info, form, .quiz, .submit{
+    margin-top: 2%;
+}
+.check{
+    margin: 0.5%;
+}
+.mail{
+    margin-left: 0;
+    position: relative;
+    top: 2%;
+}
+.long{
+    height: 1400px;
+}
+iframe{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+/*O nama*/
+.fixed{
+    position: fixed;
+    left: 0;
+    width: 14%;
+    background-color: white;
+}
+.fixed h2, .fixed p{
+    padding: 5%;
+}
+.o-nama{
+    position: relative;
+    width: 70%;
+    top: 4%;
+}
+.o-nama p{
+    margin-top: 1%;
+}
+.nastrani{
+    width: 20%;
+    border: dotted red;
+    height: 75.55%;
+    top: 13%;
+    padding: 2%;
+}
+.nastrani h2{
+    padding-bottom: 5%;
+}
+ul{
+    padding-left: 15%;
+    padding-top: 5%;
+    list-style-image: url("images/pokeball.png");
+}
+/*Novosti*/
+.bootUL p, .bootF p{
+    margin-bottom: 0;
+}
+.bootH{
+    width: 100%;
+}
+.bootF{
+    min-height: 70px;
+}
+.container{
+    margin-top: 6%;
+}
+.col-md-4 h3{
+    margin-top: 5%;
+}
+.dropdown{
+    width: 25%;
+    min-height: 24px;
+    padding-top: 2%;
+}
+.dropdown > a{
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 100%;
+}
+.dropdown ul li a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.dropdown ul{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0;
+    display: none;
+    float: right;
+    width: 75%;
+}
+.dropdown li{
+    float: right;
+    width: 33%;
+    background-color: brown;
+    margin-left: 0.25%;
+    border: solid 1px brown;
+}
+div.dropdown:hover{
+    width: 100%;
+}
+div.dropdown:hover > a{
+    width: 25%;
+}
+div.dropdown:hover ul{
+    display: block;
+}
+div.dropdown:hover > a{
+    background-color: red;
+    color: white;
+}
+/*Trgovina*/
+.flex{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.flex div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.flex div section{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.flex a{
+    width: 50%;
+    min-width: 150px;
+    margin-top: 2%;
+    align-self: center;
+    border-radius: 5px;
+}
+.flex a:hover{
+    transition: background-color 1s;
+}
+.flex p{
+    margin-top: 2%;
+}
+.popust{
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+.banner{
+    background-image: url("images/9UWjzM.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    color: whitesmoke;
+    font-size: x-large;
+    text-shadow: 1px 1px black;
+}
+@media (min-width: 768px){
+    nav ul{
+        list-style: none;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav a{
+        float: left;
+        border-style: double;
+        border-color: red;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav li{
+        height: 100%;
+        width: 15%;
+    }
+    .longM{
+        height: 2100px;
+    }
+    .mainT{
+        height: 2000px;
+    }
+    .banner{
+        height: 10%;
+    }
+}
+@media (max-width: 767px){
+    header{
+        min-height: 110px;
+    }
+    header nav{
+        width: 85%;
+    }
+    nav ul{
+        list-style: none;
+        padding: 0;
+        height: 100%;
+    }
+    nav a{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0.5%;
+    }
+    .bootUL a{
+        max-height: 20px;
+    }
+    .longM{
+        height: 5900px;
+    }
+    .flex div{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .flex div section{
+        width: 50%;
+        align-self: center;
+    }
+    .mainT{
+        height: 5300px;
+    }
+    .banner{
+        height: 4%;
+    }
+}
